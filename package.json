@@ -1,0 +1,13 @@
+{
+  "name": "getdone-task-management-app",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Daily Task Management Web App with RBAC, MongoDB Atlas/Compass, Swagger API, and Pinterest-style modern UI",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "start": "node backend/server.js"
+  },
+  "keywords": ["mern", "task-management", "rbac", "swagger", "mongodb", "react", "express"]
+}
+
